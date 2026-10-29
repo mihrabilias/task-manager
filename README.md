@@ -68,7 +68,7 @@ python app.py
 
 ## 📸 Screenshots
 
-*(Ersetze diesen Platzhalter durch einen tatsächlichen Screenshot deiner Anwendung, sobald dieser hochgeladen wurde.)*
+<img width="1858" height="945" alt="Screenshot 2026-10-29 193429" src="https://github.com/user-attachments/assets/a817c1f5-40ae-48bd-a661-ea1236f9c9bc" />
 
 ## 📌 Projektstatus
 

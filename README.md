@@ -1,84 +1,75 @@
-📋 Task Manager – Aufgabenverwaltung
+# 📋 Task-Manager – Aufgabenverwaltung
 
-📖 Overview
+## 📖 Überblick
 
-A responsive web application designed for creating, organizing, updating, and tracking tasks efficiently. This project serves as a practical demonstration of full-stack web development principles, connecting a dynamic frontend with a robust Python backend.
+Eine responsive Webanwendung zur effizienten Erstellung, Organisation, Aktualisierung und Verfolgung von Aufgaben. Dieses Projekt dient als praktisches Beispiel für die Prinzipien der Full-Stack-Webentwicklung und verbindet ein dynamisches Frontend mit einem leistungsfähigen Python-Backend.
 
-✨ Features
+## ✨ Funktionen
 
-Task Management (CRUD): Easily add new tasks, edit existing ones, and delete them when no longer needed.
+- **Aufgabenverwaltung (CRUD):** Neue Aufgaben können einfach hinzugefügt, bestehende Aufgaben bearbeitet und nicht mehr benötigte Aufgaben gelöscht werden.
+- **Organisation und Fortschrittsverfolgung:** Aufgaben können priorisiert und anhand bestimmter Statuswerte verfolgt werden:
+  - 🔴 `Offen`
+  - 🟡 `In Bearbeitung`
+  - 🟢 `Erledigt`
+- **Suche und Filterung:** Aufgaben können gezielt gesucht und nach ihrem aktuellen Status gefiltert werden, um den Überblick zu behalten.
+- **Dauerhafte Datenspeicherung:** Alle Daten werden sicher in einer SQL-Datenbank gespeichert und verwaltet.
 
-Organization & Tracking: Set task priorities and track progress using specific statuses:
+## 💻 Verwendete Technologien
 
-🔴 Offen (Open)
+- **Backend:** Python, Flask
+- **Datenbank:** SQL (SQLite)
+- **Frontend:** HTML5, CSS3 (Tailwind), JavaScript
 
-🟡 In Bearbeitung (In Progress)
+## 🧠 Bedeutung des Projekts und wichtigste Erkenntnisse
 
-🟢 Erledigt (Done)
+Dieses Projekt wurde speziell entwickelt, um fundierte Kenntnisse grundlegender Softwareentwicklungskonzepte zu demonstrieren:
 
-Search & Filtering: Search for specific tasks and filter your view based on their current status to stay focused.
+- **Beherrschung von CRUD-Operationen:** Demonstration eines klaren Verständnisses der Operationen Create (Erstellen), Read (Lesen), Update (Aktualisieren) und Delete (Löschen).
+- **Datenbankverwaltung:** Entwurf von Tabellen und Ausführung von SQL-Abfragen zur dauerhaften Speicherung und Verwaltung von Daten.
+- **Full-Stack-Integration:** Erfolgreiche Verbindung der Benutzeroberfläche (Frontend) mit der serverseitigen Logik (Backend).
+- **Strukturierung des Codes:** Saubere und übersichtliche Organisation des Projekts, um Skalierbarkeit und Lesbarkeit sicherzustellen.
 
-Persistent Storage: All data is securely stored and managed in an SQL database.
+## 🚀 Installation und Einrichtung
 
-💻 Technologies Used
+Folge diesen Anweisungen, um das Projekt lokal einzurichten und auszuführen.
 
-Backend: Python, Flask
+**1. Repository klonen**
 
-Database: SQL (SQLite)
-
-Frontend: HTML5, CSS3 (Tailwind), JavaScript
-
-🧠 Project Significance & Key Learnings
-
-This project was specifically built to showcase a strong understanding of fundamental software engineering concepts:
-
-Mastering CRUD: Demonstrates a clear understanding of Create, Read, Update, and Delete operations.
-
-Database Management: Designing tables and executing SQL queries to manage data persistently.
-
-Full-Stack Integration: Successfully bridging the gap between the user interface (Frontend) and server-side logic (Backend).
-
-Code Organization: Structuring a project cleanly to ensure scalability and readability.
-
-🚀 Installation & Setup
-
-Follow these instructions to get a local copy of the project up and running.
-
-1. Clone this repository
-
-git clone https://github.com/your-username/task-manager.git
+```bash
+git clone https://github.com/mihrabilias/task-manager.git
 cd task-manager
+```
 
+**2. Eine virtuelle Python-Umgebung erstellen und aktivieren**
 
-2. Create and activate a Python virtual environment
+- **Windows:**
+  ```
+  python -m venv venv
+  venv\Scripts\activate
+  ```
 
-Windows:
+- **macOS/Linux:**
+  ```bash
+  python3 -m venv venv
+  source venv/bin/activate
+  ```
 
-python -m venv venv
-venv\Scripts\activate
+**3. Abhängigkeiten installieren**
 
-
-macOS/Linux:
-
-python3 -m venv venv
-source venv/bin/activate
-
-
-3. Install the dependencies
-
+```bash
 pip install -r requirements.txt
+```
 
+**4. Anwendung starten**
 
-4. Start the application
-
+```bash
 python app.py
+```
 
+## 📸 Screenshots
 
-📸 Screenshots
+*(Ersetze diesen Platzhalter durch einen tatsächlichen Screenshot deiner Anwendung, sobald dieser hochgeladen wurde.)*
 
-(Replace this placeholder with an actual screenshot of your app once uploaded)
+## 📌 Projektstatus
 
-📌 Status
-
-Portfolio Project.
-Maintained to demonstrate full-stack web development skills.
+**Portfolio-Projekt.** Das Projekt wird gepflegt, um Kenntnisse und Fähigkeiten in der Full-Stack-Webentwicklung zu demonstrieren.
